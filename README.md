@@ -41,14 +41,7 @@
     pip install -r requirements.txt
     ```
 
-4. Выполните миграции (если используются миграции):
-
-    ```bash
-    alembic upgrade head
-    ```
-
-5. Запустите приложение:
-
+4. Запустите приложение:
     ```bash
     uvicorn main:app --reload
     ```
